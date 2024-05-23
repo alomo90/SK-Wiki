@@ -1,0 +1,24 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#51ca2c",
+        "activityBar.activeBackground": "#053a1e",
+        "activityBar.foreground": "#9bf9a9",
+        "activityBar.inactiveForeground": "#276729",
+        "activityBarBadge.background": "#f7ff01",
+        "activityBarBadge.foreground": "#276729",
+        "statusBar.background": "#053a1e", 
+        "statusBarItem.hoverBackground": "#51ca2c",
+        "titleBar.activeBackground": "#053a1e",
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.autoImportCompletions": true,
+    "iis.configDir": "",
+}
