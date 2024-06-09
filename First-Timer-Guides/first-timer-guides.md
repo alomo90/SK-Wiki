@@ -8,7 +8,5 @@ editor: markdown
 dateCreated: 2024-05-21T21:41:33.131Z
 ---
 
-# Header
-Your content here
-
-first timer guide
+# First Timer Guides
+First Timer Guides
