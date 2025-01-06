@@ -2,10 +2,10 @@
 title: First Timer Guides
 description: 
 published: true
-date: 2024-05-21T21:44:21.577Z
+date: 2025-01-05T20:24:41.889Z
 tags: first-timer
 editor: markdown
-dateCreated: 2024-05-21T21:41:33.131Z
+dateCreated: 2024-07-27T10:03:15.703Z
 ---
 
 # First Timer Guides
