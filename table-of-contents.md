@@ -1,8 +1,8 @@
 ---
-title: table of contents
+title: table of contents brainstorm
 description: 
 published: true
-date: 2025-01-05T20:24:40.261Z
+date: 2025-01-10T12:52:47.653Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-27T10:03:12.621Z
