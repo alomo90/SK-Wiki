@@ -2,7 +2,7 @@
 title: Mine Gold
 description: 
 published: true
-date: 2025-04-19T16:50:04.891Z
+date: 2025-04-19T16:58:07.784Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T16:45:56.404Z
@@ -19,7 +19,7 @@ Previously, the gold mined was calculated simply:
   gold = (15,000 × 6.5) + ((probes - 15,000) × 2.5)
   ```
 
-This provided a steady but linear progression.
+This provided a steady but linear progression. It also had a cap on how much can be mined.
 
 ### ✨ **New Formula**
 The updated formula introduces a dynamic calculation to encourage more strategic gameplay:
@@ -43,6 +43,9 @@ The updated formula introduces a dynamic calculation to encourage more strategic
   ```
   gold = 1.5 × probes + 300,000
   ```
+  
+There is no cap on how much gold can be mined.
+
 
 ### 📊 **Comparisons by Game Phase**
 
