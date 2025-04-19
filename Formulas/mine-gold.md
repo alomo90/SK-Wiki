@@ -2,19 +2,11 @@
 title: Mine Gold
 description: 
 published: true
-date: 2025-04-19T16:49:40.110Z
+date: 2025-04-19T16:50:04.891Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T16:45:56.404Z
 ---
-
-## 📢 Update: Changes to the Gold Mining Formula!
-
-Hello everyone!
-
-We've recently updated the gold mining mechanics to place greater emphasis on early-game growth while introducing deeper strategic decision-making in mid and late-game phases. The new balance means that investing in probes will yield higher returns initially but becomes strategically nuanced later, especially when considering investments in Star Mines.
-
-Here's an overview of what's changing:
 
 ### 🛠️ **Old Formula**
 Previously, the gold mined was calculated simply:
