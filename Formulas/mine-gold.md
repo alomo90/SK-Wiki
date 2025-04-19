@@ -2,7 +2,7 @@
 title: Mine Gold
 description: 
 published: true
-date: 2025-04-19T16:45:56.404Z
+date: 2025-04-19T16:49:40.110Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T16:45:56.404Z
