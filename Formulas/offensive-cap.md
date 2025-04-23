@@ -2,7 +2,7 @@
 title: Offensive Cap
 description: 
 published: true
-date: 2025-04-23T07:24:14.855Z
+date: 2025-04-23T07:32:32.916Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T07:24:14.855Z
@@ -33,10 +33,10 @@ The **Anti-Turtle Cap System** controls how much offense you are allowed to make
 
 | Unit Type      | Offense | Defense | Cap Role       | Contribution to Defense Cap |
 |----------------|---------|---------|----------------|------------------------------|
-| **Troopers**   | 4       | 0       | Pure Offense   | 0%                           |
-| **Laser Troopers** | 0   | 4       | Pure Defense   | 100%                         |
-| **Tanks**      | 9       | 9       | Flex           | 35% of Defense Value         |
-| **Soldiers**   | 1       | 1       | Flex           | 35% of Defense Value         |
+| **Troopers**   | 4       | 0       | Pure Offense   | 0                        |
+| **Laser Troopers** | 0   | 4       | Pure Defense   | 4                     |
+| **Tanks**      | 9       | 9       | Flex           | 3.15         |
+| **Soldiers**   | 1       | 1       | Flex           | 0.35         |
 
 ---
 
