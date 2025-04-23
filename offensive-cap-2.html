@@ -1,0 +1,142 @@
+<!--
+title: Offensive Cap
+description: 
+published: true
+date: 2025-04-23T07:26:04.503Z
+tags: 
+editor: code
+dateCreated: 2025-04-23T07:26:04.503Z
+-->
+
+<h1>⚖️ Cap Balance System</h1>
+
+<h2>🧠 Overview</h2>
+<p>The <strong>Anti-Turtle Cap System</strong> controls how much offense you are allowed to make.</p>
+
+<hr>
+
+<h2>📊 Cap Ratio</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cap Type</th>
+      <th>Percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Defense</td>
+      <td>45%</td>
+    </tr>
+    <tr>
+      <td>Offense</td>
+      <td>55%</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>You can train up to 55% of your cap in <strong>offense</strong>.</li>
+  <li>45% must go into <strong>defensive power</strong>.</li>
+  <li><strong>Flexible units</strong> contribute partially to the defense cap (35%).</li>
+</ul>
+
+<hr>
+
+<h2>🧱 Unit Roles and Cap Contribution</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Unit Type</th>
+      <th>Offense</th>
+      <th>Defense</th>
+      <th>Cap Role</th>
+      <th>Contribution to Defense Cap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Troopers</strong></td>
+      <td>4</td>
+      <td>0</td>
+      <td>Pure Offense</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <td><strong>Laser Troopers</strong></td>
+      <td>0</td>
+      <td>4</td>
+      <td>Pure Defense</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td><strong>Tanks</strong></td>
+      <td>9</td>
+      <td>9</td>
+      <td>Flex</td>
+      <td>35% of Defense Value</td>
+    </tr>
+    <tr>
+      <td><strong>Soldiers</strong></td>
+      <td>1</td>
+      <td>1</td>
+      <td>Flex</td>
+      <td>35% of Defense Value</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>📐 How the Cap Works</h2>
+
+<ol>
+  <li><strong>Calculate Defense Cap Value</strong><br>
+      - Full defense value from <strong>pure defensive units</strong><br>
+      - <strong>35%</strong> of defense value from <strong>flex units</strong></li>
+  <li><strong>Determine Offense Cap from Defense Cap</strong><br>
+      - You can train up to a <strong>55:45</strong> ratio of offense to defense.</li>
+  <li><strong>Apply Caps When Training Units</strong><br>
+      - The number of <strong>troopers</strong> you can train is based on your current defense value.</li>
+</ol>
+
+<hr>
+
+<h2>⚔️ Example Calculation</h2>
+
+<p>Let’s say your kingdom has:</p>
+<ul>
+  <li>5,000 <strong>Laser Troopers</strong> (0/4)</li>
+  <li>1,000 <strong>Tanks</strong> (9/9)</li>
+  <li>1,000 <strong>Soldiers</strong> (1/1)</li>
+  <li>??? <strong>Troopers</strong> (0/4) — we’ll calculate how many you're allowed</li>
+</ul>
+
+<h3>🔧 Step 1: Calculate Defense Cap Value</h3>
+
+<ul>
+  <li><strong>Laser Troopers</strong>: 5,000 × 4 = <strong>20,000</strong> (100% contribution)</li>
+  <li><strong>Tanks</strong>: 1,000 × 9 = 9,000 → 35% = <strong>3,150</strong></li>
+  <li><strong>Soldiers</strong>: 1,000 × 1 = 1,000 → 35% = <strong>350</strong></li>
+</ul>
+
+<p><strong>Total Defense Cap Value:</strong><br>
+20,000 + 3,150 + 350 = <strong>23,500</strong></p>
+
+<hr>
+
+<h3>💥 Step 2: Calculate Max Offense (Troopers Allowed)</h3>
+
+<pre><code>Trooper Offense Cap = (55 / 45) × 23,500  
+                    = 1.222... × 23,500  
+                    = 28,722 (rounded)
+
+Each Trooper provides 4 offense, so:
+
+Troopers Allowed = 28,722 / 4  
+                 = 7,180
+</code></pre>
+
+<hr>
