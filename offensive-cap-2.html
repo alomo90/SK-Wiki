@@ -2,7 +2,7 @@
 title: Offensive Cap
 description: 
 published: true
-date: 2025-04-23T07:26:04.503Z
+date: 2025-04-23T07:28:31.769Z
 tags: 
 editor: code
 dateCreated: 2025-04-23T07:26:04.503Z
@@ -140,3 +140,42 @@ Troopers Allowed = 28,722 / 4
 </code></pre>
 
 <hr>
+
+<h2>🧮 Live Cap Calculator</h2>
+
+<label>Laser Troopers: <input type="number" id="laser" value="0"></label><br>
+<label>Tanks: <input type="number" id="tanks" value="0"></label><br>
+<label>Soldiers: <input type="number" id="soldiers" value="0"></label><br>
+<br>
+<button onclick="calculateCap()">Calculate</button>
+
+<p><strong>Total Defense Cap Value:</strong> <span id="defCap">0</span></p>
+<p><strong>Trooper Offense Cap (total offense points):</strong> <span id="offCap">0</span></p>
+<p><strong>Troopers Allowed (4 O):</strong> <span id="troopers">0</span></p>
+<p><strong>Dragoons Allowed (5 O):</strong> <span id="dragoons">0</span></p>
+<p><strong>Fighters Allowed (6 O):</strong> <span id="fighters">0</span></p>
+
+<script>
+function calculateCap() {
+  const laser = parseInt(document.getElementById('laser').value) || 0;
+  const tanks = parseInt(document.getElementById('tanks').value) || 0;
+  const soldiers = parseInt(document.getElementById('soldiers').value) || 0;
+
+  const laserDef = laser * 4;
+  const tanksDef = tanks * 9 * 0.35;
+  const soldiersDef = soldiers * 1 * 0.35;
+
+  const totalDefCap = laserDef + tanksDef + soldiersDef;
+  const offenseCap = totalDefCap * (55 / 45);
+
+  const troopersAllowed = Math.floor(offenseCap / 4);   // Troopers = 4 offense
+  const dragoonsAllowed = Math.floor(offenseCap / 5);   // Dragoons = 5 offense
+  const fightersAllowed = Math.floor(offenseCap / 6);   // Fighters = 6 offense
+
+  document.getElementById('defCap').innerText = Math.floor(totalDefCap);
+  document.getElementById('offCap').innerText = Math.floor(offenseCap);
+  document.getElementById('troopers').innerText = troopersAllowed;
+  document.getElementById('dragoons').innerText = dragoonsAllowed;
+  document.getElementById('fighters').innerText = fightersAllowed;
+}
+</script>
