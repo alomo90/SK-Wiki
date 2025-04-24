@@ -2,17 +2,17 @@
 title: Offensive Cap
 description: 
 published: true
-date: 2025-04-23T07:32:32.916Z
+date: 2025-04-24T06:14:13.668Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T07:24:14.855Z
 ---
 
-# ⚖️ Cap Balance System
+# ⚖️ Anti-Turtle Cap System
 
-## 🧠 Overview
+The **Anti-Turtle Cap System** controls how much offense you are allowed to make.  
 
-The **Anti-Turtle Cap System** controls how much offense you are allowed to make.
+Try out the calculator: [AT Cap Calcualtor](https://docs.google.com/spreadsheets/d/1ePLEIHaT1IKgEZaK8T8U8r0HvEX9XApjXYjbmIrbr7c/edit?usp=sharing)
 
 ---
 
