@@ -2,7 +2,7 @@
 title: Offensive Cap
 description: 
 published: true
-date: 2025-04-24T06:14:13.668Z
+date: 2025-04-25T08:01:01.540Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T07:24:14.855Z
@@ -90,8 +90,47 @@ Each Trooper provides 4 offense, so:
 
 Troopers Allowed = 28,722 / 4  
                  = 7,180
+                 
 
 
----
+## 🕒 Cap Loosening Over Time
 
+To encourage offense as the game progresses, the Anti-Turtle Cap System **loosens** after a certain point in time.
+
+### ⏳ When Does It Loosen?
+
+- **Start of loosening**: Day 3 (Tick 144)
+- **Fully loosened**: Day 13 (Tick 144 + 10 × 48)
+
+Between these ticks, the cap gradually loosens. Before tick 144, it’s fully tight. After tick 624, it’s at its most relaxed.
+
+  
+
+### 📉 How It Works
+
+The system uses a **tightness factor** that starts at **1.0** (full cap pressure) and decreases to **0.5** (50% looser).  
+This factor adjusts your offensive cap upward over time.
+
+#### 🔍 Formula Overview:
+
+```sql
+IF CurrentTick < 3 * 48:
+    CapTightness = 1.0
+
+ELSE IF CurrentTick > (3 * 48 + 10 * 48):
+    CapTightness = 0.5
+
+ELSE:
+    CapTightness = 1 - ((CurrentTick - 3*48) / (10*48)) * 0.5
+```
+
+Your final **offensive cap** is calculated like this:
+
+```
+OffensiveCap = (DefenseCap / 0.45) × 0.55
+OffensiveCap = OffensiveCap / CapTightness
+```
+
+So as the cap loosens (CapTightness ↓), your offensive potential increases!  
+At max looseness you can train offensive in a 2.44:1 ratio
 
