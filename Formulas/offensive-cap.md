@@ -2,7 +2,7 @@
 title: Offensive Cap
 description: 
 published: true
-date: 2025-04-25T08:01:01.540Z
+date: 2025-04-25T08:02:02.741Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T07:24:14.855Z
@@ -117,7 +117,7 @@ This factor adjusts your offensive cap upward over time.
 IF CurrentTick < 3 * 48:
     CapTightness = 1.0
 
-ELSE IF CurrentTick > (3 * 48 + 10 * 48):
+ELSE IF CurrentTick > (13 * 48):
     CapTightness = 0.5
 
 ELSE:
