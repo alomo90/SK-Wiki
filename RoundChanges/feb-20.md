@@ -1,0 +1,42 @@
+---
+title: February 2025
+description: 
+published: true
+date: 2025-04-29T08:06:41.835Z
+tags: 
+editor: markdown
+dateCreated: 2025-04-29T08:06:41.835Z
+---
+
+# February 2025 Changes
+
+Note that these tables are only recording changes, not the entire planet / race
+
+### Planet Type
+
+| Planet Type        | Effect                                                                 |
+|--------------------|------------------------------------------------------------------------|
+| Mountainous        | -20% power produced                                                    |
+| Mystical Lands     | -5% balanced unit cost                                                 |
+| Helium             | -10% building cost, +25% research efficiency, -5% population            |
+| Ice Giant          | No longer starts with Laser Dragoons, Land gains decreased from 10% to 5% |
+| Multiple Terrain   | Race Tokens Cost -10k, -20k, -30k... up to -80k for last token         |
+| Shadow Lands       | Max of 5 intel PAs, restores 1 every 3 ticks                           |
+| All Planet Types   | Max of 3 intel PAs, restore 1 every 5 ticks                            |
+
+### Race Type
+
+| Race Type     | Effect                                                                  |
+|---------------|-------------------------------------------------------------------------|
+| Terran 1      | +8% Pop                                                                 |
+| Terran 2      | Soldiers Cost 130 gold                                                  |
+| Terran 3      | +12% Pop, Soldiers cost 120 gold, -4 ticks soldiers training time       |
+| Shadow 2      | +10% Probe Production, -10% Probe Losses                                |
+| Shadow 3      | +15% Probe Production, -15% Probe Losses, +15% probe damage             |
+| Ancients 1    | +20% Research Efficiency                                                |
+| Ancients 2    | +30% Research Efficiency                                                |
+| Ancients 3    | +40% Research Efficiency                                                |
+
+### Other Changes
+
+- Sabos, arsons and kidnaps return 25% of mine gold while at war
