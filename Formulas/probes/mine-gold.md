@@ -2,7 +2,7 @@
 title: Mine Gold
 description: 
 published: true
-date: 2025-04-29T08:41:08.429Z
+date: 2025-05-01T06:32:59.560Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T16:45:56.404Z
@@ -44,7 +44,16 @@ The updated formula introduces a dynamic calculation to encourage more strategic
   gold = 1.5 × probes + 300,000
   ```
   
-There is no cap on how much gold can be mined.
+### 🧢 **Gold Mining Cap**
+
+Although the new formula allows for dynamic scaling, there is still a **maximum cap** on how much gold can be mined per tick. The cap is calculated as:
+
+```
+gold_cap = 100,000 + (Residences × 50) + (Star Mines × 100)
+```
+
+This cap ensures that regardless of how many probes are deployed, the total gold mined per tick cannot exceed this limit. To increase the cap, players must invest in building more **Residences** and **Star Mines**, reinforcing the importance of infrastructure in maximizing gold yield.
+
 
 
 ### 📊 **Comparisons by Game Phase**
