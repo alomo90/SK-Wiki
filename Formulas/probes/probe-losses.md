@@ -2,7 +2,7 @@
 title: Probe Losses
 description: 
 published: true
-date: 2025-05-05T05:26:50.361Z
+date: 2025-05-05T05:28:01.200Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-27T10:03:24.513Z
@@ -18,7 +18,7 @@ From round 76 onwards, the amount of randomness is reduced, but the save average
 The average probe loss used to be 1.1 + (1.1 / 2) = 1.65%. Which is the same as 1.1 * 1.5 = 1.65%.
 So instead of starting from 1.1 and adding a random 1.1, we now start from 1.65, making it more centered.  
   
-To keep the full amount of randomness, we'd have use -0.5 * Random and + 0.5 * Random.
+To keep the full amount of randomness, we'd use -0.5 * Random and + 0.5 * Random.
 We're reducing the randomness, so we're using -0.25 * Random and + 0.25 * Random.
 ```
 @ProbeLossPercentage = @BASE_PROBE_LOSSES * (1.5 - 0.25 * dbo.RandomNumber() + 0.25 * dbo.RandomNumber())
