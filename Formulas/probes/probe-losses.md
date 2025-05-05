@@ -2,7 +2,7 @@
 title: Probe Losses
 description: 
 published: true
-date: 2025-04-29T08:40:40.172Z
+date: 2025-05-05T05:26:50.361Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-27T10:03:24.513Z
@@ -24,7 +24,6 @@ We're reducing the randomness, so we're using -0.25 * Random and + 0.25 * Random
 @ProbeLossPercentage = @BASE_PROBE_LOSSES * (1.5 - 0.25 * dbo.RandomNumber() + 0.25 * dbo.RandomNumber())
 ```
 Aggressive Probe missions, such as robs and sabos the probe losses are 50% higher.
-Growth oriented mission, such as mining gold, have lower losses, at 90% of the base loss.
 ```
 SET @ProbeLossFactor = @ProbeLossFactor * @MissionTypeFactor
 ```
