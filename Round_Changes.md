@@ -2,7 +2,7 @@
 title: Round Changes
 description: 
 published: true
-date: 2026-06-01T19:00:27.784Z
+date: 2026-06-01T19:22:46.078Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-29T08:07:17.995Z
@@ -28,3 +28,4 @@ dateCreated: 2025-04-29T08:07:17.995Z
 - [March-2026](/Round_Changes/2026/26-01-Mar)
 - [April-2026](/Round_Changes/2026/26-01-April)
 - [May-2026](/Round_Changes/2026/26-01-May)
+- [June-2026](/Round_Changes/2026/26-01-June)
