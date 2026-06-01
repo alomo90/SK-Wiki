@@ -2,11 +2,64 @@
 title: Mine Gold
 description: 
 published: true
-date: 2025-05-01T06:32:59.560Z
+date: 2026-06-01T19:12:38.912Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T16:45:56.404Z
 ---
+
+## Feb 2026 Changes
+# :pick: Gold Mining Balance Update
+
+## :wrench: What changed?
+
+### :one: Gold mining now scales less aggressively at high probe counts
+
+* At **low and mid probe counts**, gold mining behaves **the same as before**.
+* At **very high probe counts**, gold mining is now **less profitable than previously**.
+* This prevents extreme late-game probe stacking from massively outperforming other strategies.
+
+To keep things transparent, we’ve added a **full comparison table** (old vs new values).
+:bar_chart: You’ll have access to the **entire Excel sheet**, so you can see exactly where and how the curve changes.
+
+---
+
+### :two: Probe losses for gold mining were reworked
+
+This is the part that interacts with **shielding**:
+
+* **Base probe losses for gold mining were increased**
+* **Shielded probe effectiveness was increased to 60%**
+
+:point_right: **What this means in practice:**
+
+* If your probes are **shielded**, **total losses remain the same as before**
+* If your probes are **not shielded**, losses now increase **more steeply** than they used to
+
+So:
+
+* :shield: Shielding is now **more important and more rewarding**
+* :no_entry_sign: Unshielded gold mining is **riskier than before**
+
+---
+
+## :dart: Why we made this change
+
+* Reduce runaway scaling at extreme probe counts
+* Make gold mining decisions more strategic at high levels
+* Reinforce shielding as an important mechanic, not an optional one
+* Keep early and mid-game behavior familiar and predictable
+
+---
+
+## :brain: TL;DR
+
+* Low / mid probes → **no real change**
+* High probes → **less gold than before**
+* Shielded probes → **same losses as before**
+* Unshielded probes → **higher losses**
+
+https://docs.google.com/spreadsheets/d/1XTwfVVYQ6x2WR9TGoyF4x5aD8dZHPLPfDuIrP9x_zio/
 
 ### 🛠️ **Old Formula**
 Previously, the gold mined was calculated simply:
