@@ -2,7 +2,7 @@
 title: Offensive Cap
 description: 
 published: true
-date: 2025-04-25T08:02:02.741Z
+date: 2026-06-29T11:54:23.100Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T07:24:14.855Z
@@ -31,7 +31,7 @@ Try out the calculator: [AT Cap Calcualtor](https://docs.google.com/spreadsheets
 
 ## 🧱 Unit Roles and Cap Contribution
 
-| Unit Type      | Offense | Defense | Cap Role       | Contribution to Defense Cap |
+| Unit Type      | Offense | Defense | Cap Role       | Contribution to Offense Cap |
 |----------------|---------|---------|----------------|------------------------------|
 | **Troopers**   | 4       | 0       | Pure Offense   | 0                        |
 | **Laser Troopers** | 0   | 4       | Pure Defense   | 4                     |
