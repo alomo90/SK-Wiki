@@ -2,7 +2,7 @@
 title: Offensive Cap
 description: 
 published: true
-date: 2026-06-29T11:54:23.100Z
+date: 2026-06-29T11:56:51.178Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T07:24:14.855Z
@@ -99,8 +99,8 @@ To encourage offense as the game progresses, the Anti-Turtle Cap System **loosen
 
 ### ⏳ When Does It Loosen?
 
-- **Start of loosening**: Day 3 (Tick 144)
-- **Fully loosened**: Day 13 (Tick 144 + 10 × 48)
+- **Start of loosening**: End of day 3 (Tick 144)
+- **Fully loosened**: End of day 13 (Tick 144 + 10 × 48)
 
 Between these ticks, the cap gradually loosens. Before tick 144, it’s fully tight. After tick 624, it’s at its most relaxed.
 
